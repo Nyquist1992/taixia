@@ -1,4 +1,11 @@
-ESPHome TaiXia Custom Component
+# ESPHome TaiXia Custom Component (RD-18FC fork)
+
+> **Fork of [tsunglung/taixia](https://github.com/tsunglung/taixia)** — modified for Hitachi RD-18FC dehumidifier.
+>
+> Change: rename mode/preset enum `baby` (value 4) to `air_purifier` in
+> `select/__init__.py`, `fan/taixia_fan.cpp`, and `fan/__init__.py`.
+> Pure display-layer rename; the protocol mapping (value 4) is unchanged.
+> On the RD-18FC, mode 4 is the pure air-purifier mode.
 
 
 ## Special Thank
