@@ -28,7 +28,7 @@ static const char *const TAG = "taixia.fan";
         return "boost";
       break;
       case 4:
-        return "baby";
+        return "air_purifier";  // was "baby": RD-18FC pure air-purifier mode
       break;
       case 5:
         return "sleep";  // anti-mildew, anti-mite
@@ -58,7 +58,7 @@ static const char *const TAG = "taixia.fan";
         return 2;
       if (!mode.compare("boost"))
         return 3;
-      if (!mode.compare("baby"))
+      if (!mode.compare("air_purifier"))  // was "baby": RD-18FC pure air-purifier mode
         return 4;
       if (!mode.compare("sleep"))  // anti-mildew, anti-mite
         return 5;

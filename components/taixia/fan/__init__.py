@@ -38,7 +38,7 @@ SUPPORTED_DEHUMIDIFIER_MODES_OPTIONS = {
     "normal": 1,
     "away": 2,
     "boost": 3,
-    "baby": 4,
+    "air_purifier": 4,  # was "baby": RD-18FC pure air-purifier mode
     "defrost": 5,
     "fan": 6,
     "comfort": 7,
